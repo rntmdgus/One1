@@ -3,6 +3,8 @@ function setup() {
  	background(151, 214, 196);
   	stroke(255);
  	noFill();
+
+ 		stroke(67, 174, 113)
  	ellipse(250, 250, 50, 50);
  	ellipse(250, 250, 25, 25);
  	ellipse(250, 250, 390, 390);
@@ -21,6 +23,7 @@ function setup() {
  	ellipse(140, 360, 15, 15);
  	ellipse(360, 140, 15, 15);
  	ellipse(140, 140, 15, 15);
+		stroke(255, 255, 255)
  	rect(0,0,50,50);
  	rect(0,450,50,50);
  	rect(450,0,50,50);
@@ -31,6 +34,7 @@ function setup() {
  	rect(460,460,30,30);
  	rect(172,166,155,165);
  	rect(113,113,273,273);
+ 		stroke(246, 88, 80)
 	line(0,0,50,50);
 	line(50,0,0,50);
 	line(450,0,500,50);
